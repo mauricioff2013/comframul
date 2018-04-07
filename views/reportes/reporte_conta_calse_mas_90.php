@@ -1,0 +1,38 @@
+<?php
+
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+use kartik\date\DatePicker;
+
+/* @var $this yii\web\View */
+/* @var $model app\models\Reportes */
+/* @var $form yii\widgets\ActiveForm */
+?>
+
+<div class="reportes-form">
+<h1>Generar Reporte de Calse Mas de 60</h1>
+    <form action="../generar/2" method="get">
+    	<?php 
+
+
+echo '<label class="control-label">Fecha Final</label>';
+echo DatePicker::widget([
+	'language' => 'es',
+    'name' => 'finicial',
+    'type' => DatePicker::TYPE_COMPONENT_APPEND,
+    'value' => date("Y/m/d"),
+    'pluginOptions' => [
+        'autoclose'=>true,
+
+        'format' => 'yyyy-m-dd'
+    ]
+]);
+    	
+
+    	?>
+
+<button type="submit" class="btn btn-primary">Generar Reporte</button>
+
+    </form>
+
+</div>
