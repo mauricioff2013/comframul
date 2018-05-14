@@ -1,5 +1,6 @@
 <?php
-
+use yii\db\ActiveRecord;
+use yii\data\ActiveDataProvider;    
 $params = require(__DIR__ . '/params.php');
 $db = require(__DIR__ . '/db.php');
 $db2 = require(__DIR__ . '/db2.php');
@@ -86,7 +87,7 @@ if (YII_ENV_DEV) {
     ];
 
 
-$config['bootstrap'][] = 'reportico';
+/*$config['bootstrap'][] = 'reportico';
     $config['modules']['reportico'] = [
             'class' => 'reportico\reportico\Module' ,
             'controllerMap' => [
@@ -96,7 +97,7 @@ $config['bootstrap'][] = 'reportico';
                         ]
             ];
 
-
+*/
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',

@@ -20,10 +20,10 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "yiister/yii2-gentelella": "~1.0",
         "dmstr/yii2-adminlte-asset": "2.*",
-        "reportico/yii2-reportico": "dev-master",
         "websightnl/yii2-sybase": "0.1.5",
         "yiisoft/yii2-jui": "*",
-        "kartik-v/yii2-widget-datepicker": "@dev"
+        "kartik-v/yii2-widget-datepicker": "@dev",
+          "fedemotta/yii2-widget-datatables": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -32,7 +32,8 @@
 
         "codeception/base": "^2.2.3",
         "codeception/verify": "~0.3.1",
-        "codeception/specify": "~0.4.3"
+        "codeception/specify": "~0.4.3",
+        "fedemotta/yii2-widget-datatables": "*"
     },
     "config": {
         "process-timeout": 1800,

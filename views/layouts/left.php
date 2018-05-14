@@ -223,9 +223,7 @@ array_unshift($itemsTalentoHumano, $items);
                 'items' => [
                     [ 'label' => 'Menu Principal', 'options' => ['class' => 'header']],
                     
-               
-
-                     ['visible' => $Creditos,'label' => 'Creditos', 'icon' => 'file-code-o', 'url' => ['#'],'items' => $itemsCreditos,],
+                 ['visible' => $Creditos,'label' => 'Creditos', 'icon' => 'file-code-o', 'url' => ['#'],'items' => $itemsCreditos,],
                       ['visible' => $Recuperaciones ,'label' => 'Recuperaciones', 'icon' => 'file-code-o', 'url' => ['#'],'items'=>$itemsRecuperaciones],
                        ['visible' => $AtencionAlAfiliado    ,'label' => 'Atencion al Afiliado', 'icon' => 'file-code-o', 'url' => ['#'],'items'=>$itemsAtencionAlAfiliado],
                         ['visible' => $Caja ,'label' => 'Caja', 'icon' => 'file-code-o', 'url' => ['#'],'items'=>$itemsCaja],
@@ -237,7 +235,7 @@ array_unshift($itemsTalentoHumano, $items);
                              ['visible' => $TalentoHumano,'label' => 'TalentoHumano', 'icon' => 'file-code-o', 'url' => ['#'],'items'=>$itemsTalentoHumano],
                               ['visible' => $TecnologiaEInformacion,'label' => 'Tecnologia e Informacion', 'icon' => 'file-code-o', 'url' => ['#'],'items'=>$itemsTecnologiaEInformacion],
                                ['visible' => $GerenciaGeneral   ,'label' => 'Gerencia General', 'icon' => 'file-code-o', 'url' => ['#'],'items'=>$itemsGerenciaGeneral],
-                   
+               
                     
                     ['label' => 'Same tools', 'icon' => 'share', 'url' => '#',
                              'items' => [
